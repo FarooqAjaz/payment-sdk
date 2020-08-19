@@ -19,11 +19,9 @@
 error_reporting('all');
 
 // pull environment vars
-// $merchantId = getenv('GATEWAY_MERCHANT_ID');
-$merchantId = 'TEST';
+$merchantId = getenv('GATEWAY_MERCHANT_ID');
 $password = getenv('GATEWAY_API_PASSWORD');
-// $region = getenv('GATEWAY_REGION');
-$region = 'ASIA_PACIFIC';
+$region = getenv('GATEWAY_REGION');
 $apiVersion = getenv('GATEWAY_API_VERSION');
 
 
