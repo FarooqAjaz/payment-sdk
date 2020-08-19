@@ -25,10 +25,10 @@ $region = getenv('GATEWAY_REGION');
 $apiVersion = getenv('GATEWAY_API_VERSION');
 
 
-echo $merchantId;
-echo $password;
-echo $region;
-echo $apiVersion;
+print_r($merchantId);
+print_r($password);
+print_r($region);
+print_r($apiVersion);
 // merchant id must be TEST
 // $merchantIdPrefix = substr($merchantId, 0, 4);
 // if (strcasecmp($merchantIdPrefix, "test") != 0) {
